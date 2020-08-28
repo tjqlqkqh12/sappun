@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+/*헤더*/
+
+#header{
+    text-align:center;
+}
+#header h1{
+    background:url(../images/common/LOGO.png)no-repeat;
+    width:87px;
+    height:77px;
+    text-indent:-9999px;
+    margin:0 auto;
+}
+#header h1 a{
+	height:100%;
+    display:block;
+}
+
+.gnb{
+    display:inline-block;
+    height:50px;
+    line-height:50px;
+    font-size:18px;
+    font-weight:bold;
+}
+.gnb li{
+    float:left;
+    padding:0 30px;
+}
+.gnb li:hover a{
+    color:#b65151;
+}
+.gnb li a{}
+
+.util{
+    position:absolute;
+    right:0;
+    top:5px;
+    font-size:13px;
+    
+}
+.util li{
+    float:left;
+    padding:0 10px;
+    height:20px;
+    line-height:20px;
+}
+.util li:last-child{
+    background:url(../images/common/searchIcon.png)no-repeat center center;
+    text-indent:-9999px;
+    width:15px;
+    height:14px;
+}
+.util li a{
+    display:block;
+}
+
+
+
+
+
+/*푸터*/
+#footer{
+    padding-bottom:30px;
+    text-align:center;
+    border-top:1px solid #000;
+}
+
+.fMenu{
+    display:inline-block;
+    text-align:center;
+}
+.fMenu li{
+    float:left;
+    padding:20px;
+    font-size:16px;
+    font-weight:900;
+}
+
+.callCenter{
+	padding:20px 0;
+    padding-right:30px;
+}
+.callCenter p{
+    display: inline-block;
+    font-size:15px;
+}
+.callCenter p span{
+    display:block;
+    margin-bottom:10px;
+    font-size:25px;
+    font-weight:bold;
+}
+.fInfo p{
+    display:inline-block;
+    padding-right:5px;
+    font-size:12px;
+
+}
+.copy{
+    font-size:11px;
+    padding-top:20px;
+}
+
+
+
+
